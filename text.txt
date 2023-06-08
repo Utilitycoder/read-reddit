@@ -1,0 +1,82 @@
+Subreddit: ethdev
+Title: Long list of Ethereum developer tools, frameworks, components, services.... please contribute!
+Permalink: https://www.reddit.com/r/ethdev/comments/l11cji/long_list_of_ethereum_developer_tools_frameworks/
+---
+Title: NEW: "Code assistance" on /r/EthDev
+Permalink: https://www.reddit.com/r/ethdev/comments/ue0hca/new_code_assistance_on_rethdev/
+---
+Title: FLOPPA.TOP - Presale | Start in 24 Hours | Airdrops | SAFU
+Permalink: https://www.reddit.com/r/ethdev/comments/14440qv/floppatop_presale_start_in_24_hours_airdrops_safu/
+---
+Title: Announcing the Full Release of Web3.js V4
+Permalink: https://www.reddit.com/r/ethdev/comments/144119d/announcing_the_full_release_of_web3js_v4/
+---
+Title: Contracts before ownable implementation
+Permalink: https://www.reddit.com/r/ethdev/comments/14430qe/contracts_before_ownable_implementation/
+---
+Title: Chainstack Launches Web App to View Blockchain Sizes (including ETH &amp; various associated clients)
+Permalink: https://www.reddit.com/r/ethdev/comments/143nsbk/chainstack_launches_web_app_to_view_blockchain/
+---
+Title: How do I find the reserve of the token pair in Uniswap V3 pool at Dune Analytics or other sources?
+Permalink: https://www.reddit.com/r/ethdev/comments/143x96o/how_do_i_find_the_reserve_of_the_token_pair_in/
+---
+Title: How to get abi , bytecode from smart contract ?
+Permalink: https://www.reddit.com/r/ethdev/comments/143penk/how_to_get_abi_bytecode_from_smart_contract/
+---
+Title: An advice for a friend developer who wants to start learning about Solidity
+Permalink: https://www.reddit.com/r/ethdev/comments/1439pig/an_advice_for_a_friend_developer_who_wants_to/
+---
+Title: Edit Deployed Smart Contract on Ethereum Blockchain
+Permalink: https://www.reddit.com/r/ethdev/comments/143jyxa/edit_deployed_smart_contract_on_ethereum/
+---
+Title: Seeking Guidance to Pursue My Dream Web3 Job
+Permalink: https://www.reddit.com/r/ethdev/comments/143hqq3/seeking_guidance_to_pursue_my_dream_web3_job/
+---
+Title: Writing hashes ob DB objects on-chain
+Permalink: https://www.reddit.com/r/ethdev/comments/1437ym3/writing_hashes_ob_db_objects_onchain/
+---
+Title: Why do miners follow the remaining parts of the protocol?
+Permalink: https://www.reddit.com/r/ethdev/comments/14306x6/why_do_miners_follow_the_remaining_parts_of_the/
+---
+Title: Help
+Permalink: https://www.reddit.com/r/ethdev/comments/1430co2/help/
+---
+Title: MEV Bots with highly accurate front-run quantities
+Permalink: https://www.reddit.com/r/ethdev/comments/142tklb/mev_bots_with_highly_accurate_frontrun_quantities/
+---
+Title: Oasis Network's quarterly Town Hall is just around the corner
+Permalink: https://www.reddit.com/r/ethdev/comments/1435w73/oasis_networks_quarterly_town_hall_is_just_around/
+---
+Title: Is LayerZero the right solution for omnichain interoperability
+Permalink: https://www.reddit.com/r/ethdev/comments/1433chg/is_layerzero_the_right_solution_for_omnichain/
+---
+Title: The Oasis Community Town Hall is just around the corner, and it's packed with amazing content you won't want to miss!
+Permalink: https://www.reddit.com/r/ethdev/comments/142r9yq/the_oasis_community_town_hall_is_just_around_the/
+---
+Title: Running a node with XMTP
+Permalink: https://www.reddit.com/r/ethdev/comments/142usfz/running_a_node_with_xmtp/
+---
+Title: HashingBits: Your Weekly Dose of Cyber Shenanigans! From hackers doing the boogie to vulnerabilities shaking things up, we've got you covered. Stay groovy and stay secure, my cyber-savvy friends!
+Permalink: https://www.reddit.com/r/ethdev/comments/142l3hk/hashingbits_your_weekly_dose_of_cyber_shenanigans/
+---
+Title: Understanding Decentralized Storage
+Permalink: https://www.reddit.com/r/ethdev/comments/1421pfj/understanding_decentralized_storage/
+---
+Title: How to use wallet connect for your dApp in 3 minutes
+Permalink: https://www.reddit.com/r/ethdev/comments/1428mhz/how_to_use_wallet_connect_for_your_dapp_in_3/
+---
+Title: Side job on Crypto
+Permalink: https://www.reddit.com/r/ethdev/comments/14251l8/side_job_on_crypto/
+---
+Title: Tool to help read contract ABIs
+Permalink: https://www.reddit.com/r/ethdev/comments/141ltk7/tool_to_help_read_contract_abis/
+---
+Title: ✨✨ Tutorial: How to use the 🦄 Uniswap Universal Router 🦄 with 🐍 Python 🐍 | HackerNoon ✨✨
+Permalink: https://www.reddit.com/r/ethdev/comments/1426jyp/tutorial_how_to_use_the_uniswap_universal_router/
+---
+Title: Contract Verification
+Permalink: https://www.reddit.com/r/ethdev/comments/1425he4/contract_verification/
+---
+Title: Build a basic subgraph in 5 minutes
+Permalink: https://www.reddit.com/r/ethdev/comments/141xkq9/build_a_basic_subgraph_in_5_minutes/
+---
