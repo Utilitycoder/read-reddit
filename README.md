@@ -1,8 +1,8 @@
 # Why This Project?
 
-This simple CLI project is built to enable me read the top topics in my favorite sub - rust without leaving my text editor. I can see if there's any interesting discussion I should check out without getting distracted by Reddit.
+This simple CLI project is built to enable me read the top topics in my favorite sub (rust) without leaving my text editor. I can see if there's any interesting discussion I should check out without getting distracted by Reddit.
 
-This project is work-in-progress. I will add more features as soon as I find the need for it. For now, it serves it purpose - be involved without geting involved!
+This project is a work-in-progress. I will add more features as soon as I find the need for it. For now, it serves its purpose - be involved without geting involved!
 
 ## Installation
 
@@ -11,7 +11,7 @@ To install this project, you will need to have Rust installed on your machine. Y
 Once Rust is installed, you can clone the repository and build the project using the following commands:
 
 ```sh
-git clone https://github.com/username/repo.git
+git clone https://github.com/utititycoder/read-reddit.git
 cd repo
 cargo build --release
 ```
