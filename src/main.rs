@@ -1,26 +1,6 @@
 use reqwest::Client;
-use serde::Deserialize;
-
-#[derive(Debug, Deserialize)]
-pub struct SubredditListing {
-    pub data: SubredditChildren,
-}
-
-#[derive(Debug, Deserialize)]
-pub struct SubredditChildren {
-    children: Vec<RedditPost>,
-}
-
-#[derive(Debug, Deserialize)]
-pub struct RedditPost {
-    data: PostData,
-}
-
-#[derive(Debug, Deserialize)]
-pub struct PostData {
-    title: String,
-    permalink: String,
-}
+use colored::*;
+use read_reddit::SubredditListing;
 
 
 #[tokio::main]
@@ -29,7 +9,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     const REDDIT_BASE_URL: &str = "https://www.reddit.com";
     // user supplied subreddit from command line
     let subreddit = std::env::args().nth(1).expect("please supply a subreddit");
-    println!("Subreddit: {}", subreddit);
+    // add color to the output
+    println!("Subreddit: {}", subreddit.green());
 
     // Construct the URL for the subreddit's hot topics
     let url = format!("{}/r/{}/hot.json", REDDIT_BASE_URL, subreddit);
@@ -52,8 +33,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Process and display the hot topics
     for post in response.data.children {
-        println!("Title: {}", post.data.title);
-        println!("Permalink: {}{}", REDDIT_BASE_URL, post.data.permalink);
+        println!("{}", format!("Title: {}", post.data.title).green());
+        println!("{}", format!("Permalink: {}{}", REDDIT_BASE_URL, post.data.permalink).red());
         println!("---");
     }
 
