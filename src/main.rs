@@ -6,8 +6,7 @@ use reqwest::Client;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     const REDDIT_BASE_URL: &str = "https://www.reddit.com";
     // user supplied subreddit from command line
-    let subreddit = std::env::args().nth(1).expect("please supply a subreddit");
-    // add color to the output
+    let subreddit = std::env::args().nth(1).unwrap_or_else(|| "rust".to_string());
     println!("Subreddit: {}", subreddit.green());
 
     // Construct the URL for the subreddit's hot topics
