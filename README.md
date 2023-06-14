@@ -1,5 +1,7 @@
 # Why This Project?
 
+## This project is currnently not working as intended due to reddit API policy change.
+
 This simple CLI project is built to enable me read the top topics in my favorite sub (rust) without leaving my text editor. I can see if there's any interesting discussion I should check out without getting distracted by Reddit.
 
 This project is a work-in-progress. I will add more features as soon as I find the need for it. For now, it serves its purpose - be involved without geting involved!
