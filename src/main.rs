@@ -4,7 +4,7 @@ use reqwest::Client;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    const REDDIT_BASE_URL: &str = "https://www.reddit.com";
+    const REDDIT_BASE_URL: &str = "https://oauth.reddit.com";
     // user supplied subreddit from command line
     let subreddit = std::env::args()
         .nth(1)
@@ -23,6 +23,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         reqwest::header::USER_AGENT,
         reqwest::header::HeaderValue::from_static("rust"),
     );
+
+    headers.insert(
+        reqwest::header::AUTHORIZATION,
+        reqwest::header::HeaderValue::from_static("bearer"),);
     // add headers to client
     let response_body = client
         .get(&url)
@@ -31,6 +35,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .await?
         .text()
         .await?;
+
+    println!("Response: {}", response_body);
 
     // Parse the json
     let response: SubredditListing = serde_json::from_str(&response_body)?;
